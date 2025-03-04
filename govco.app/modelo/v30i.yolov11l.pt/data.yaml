@@ -1,0 +1,13 @@
+train: ./v30i.yolov11/train/images
+val: ./v30i.yolov11/valid/images
+test: ./v30i.yolov11/test/images
+
+nc: 35
+names: ['banner entidades', 'banner principal', 'barra accesibilidad', 'barra govco', 'btn atencion ciudadano', 'btn buscador', 'btn entidad', 'btn idiomas', 'btn inicio', 'btn inicio sesion', 'btn normatividad', 'btn noticias', 'btn participa', 'btn quienes somos', 'btn registro', 'btn sala prensa', 'btn tramites', 'btn transpariencia', 'btn volver arriba', 'correo institucional', 'denuncias corrupcion', 'direccion', 'footer', 'horario atencion', 'icono tiktok', 'logo co', 'logo facebook', 'logo instagram', 'logo twitter', 'logo youtube', 'logogovco', 'mapa sitio', 'menu principal', 'notif judiciales', 'politica datos']
+
+roboflow:
+  workspace: designsystems
+  project: tfm-cdi9h
+  version: 30
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/designsystems/tfm-cdi9h/dataset/30

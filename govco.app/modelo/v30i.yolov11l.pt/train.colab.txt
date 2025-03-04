@@ -1,0 +1,12 @@
+model = YOLO('yolo11l.pt')
+results = model.train(data='/content/drive/MyDrive/ColabNotebooks/TFM/v30i.yolov11/data.yaml', epochs=250, batch=16, task="detect", device=0, workers=8, patience=20, dropout=0.0)
+
+
+
+EarlyStopping: Training stopped early as no improvement observed in last 20 epochs. Best results observed at epoch 124, best model saved as best.pt.
+To update EarlyStopping(patience=20) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+
+144 epochs completed in 2.616 hours.
+Optimizer stripped from runs/detect/train2/weights/last.pt, 51.2MB
+Optimizer stripped from runs/detect/train2/weights/best.pt, 51.2MB
